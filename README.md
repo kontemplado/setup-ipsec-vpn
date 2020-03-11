@@ -12,19 +12,6 @@ We will use <a href="https://libreswan.org/" target="_blank">Libreswan</a> as th
 
 *Read this in other languages: [English](README.md), [简体中文](README-zh.md).*
 
-#### Table of Contents
-
-- [Quick start](#quick-start)
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Next steps](#next-steps)
-- [Important notes](#important-notes)
-- [Upgrade Libreswan](#upgrade-libreswan)
-- [Bugs & Questions](#bugs--questions)
-- [Uninstallation](#uninstallation)
-- [See also](#see-also)
-- [License](#license)
 
 ## Quick start
 
@@ -71,13 +58,9 @@ Please see <a href="https://blog.ls20.com/ipsec-l2tp-vpn-auto-setup-for-ubuntu-1
 
 A dedicated server or KVM/Xen-based virtual private server (VPS), freshly installed with one of the above OS. OpenVZ VPS is not supported, users could instead try <a href="https://github.com/Nyr/openvpn-install" target="_blank">OpenVPN</a>.
 
-This also includes Linux VMs in public clouds, such as <a href="https://blog.ls20.com/digitalocean" target="_blank">DigitalOcean</a>, <a href="https://blog.ls20.com/vultr" target="_blank">Vultr</a>, <a href="https://blog.ls20.com/linode" target="_blank">Linode</a>, <a href="https://cloud.google.com/compute/" target="_blank">Google Compute Engine</a>, <a href="https://aws.amazon.com/lightsail/" target="_blank">Amazon Lightsail</a>, <a href="https://azure.microsoft.com" target="_blank">Microsoft Azure</a>, <a href="https://www.ibm.com/cloud/virtual-servers" target="_blank">IBM Cloud</a>, <a href="https://www.ovh.com/world/vps/" target="_blank">OVH</a> and <a href="https://www.rackspace.com" target="_blank">Rackspace</a>.
-
-<a href="azure/README.md" target="_blank"><img src="docs/images/azure-deploy-button.png" alt="Deploy to Azure" /></a> <a href="http://dovpn.carlfriess.com/" target="_blank"><img src="docs/images/do-install-button.png" alt="Install on DigitalOcean" /></a> <a href="https://cloud.linode.com/stackscripts/37239" target="_blank"><img src="docs/images/linode-deploy-button.png" alt="Deploy to Linode" /></a>
+<a href="https://go.kontemplado.com/eteo7" target="_blank"><strong>Hosters Allowed VPN</strong></a>
 
 <a href="https://blog.ls20.com/ipsec-l2tp-vpn-auto-setup-for-ubuntu-12-04-on-amazon-ec2/#gettingavps" target="_blank">**&raquo; I want to run my own VPN but don't have a server for that**</a>
-
-Advanced users can set up the VPN server on a $35 <a href="https://www.raspberrypi.org" target="_blank">Raspberry Pi</a>. See <a href="https://blog.elasticbyte.net/setting-up-a-native-cisco-ipsec-vpn-server-using-a-raspberry-pi/" target="_blank">[1]</a> <a href="https://www.stewright.me/create-a-raspberry-pi-vpn-server-using-l2tpipsec/" target="_blank">[2]</a>.
 
 <a name="debian-10-note"></a>
 \* Debian 10 users should use the standard Linux kernel (not the "cloud" version). Read more <a href="docs/clients.md#debian-10-kernel" target="_blank">here</a>.   
@@ -192,10 +175,10 @@ Please refer to <a href="docs/uninstall.md" target="_blank">Uninstall the VPN</a
 
 ## See also
 
-- <a href="https://github.com/hwdsl2/docker-ipsec-vpn-server" target="_blank">IPsec VPN Server on Docker</a>
-- <a href="https://github.com/trailofbits/algo" target="_blank">Algo VPN</a>
-- <a href="https://github.com/StreisandEffect/streisand" target="_blank">Streisand</a>
-- <a href="https://github.com/Nyr/openvpn-install" target="_blank">OpenVPN Install</a>
+- <a href="https://github.com/kontemplado/docker-ipsec-vpn-server" target="_blank">IPsec VPN Server on Docker</a>
+- <a href="https://github.com/kontemplado/algo" target="_blank">Algo VPN</a>
+- <a href="https://github.com/kontemplado/streisand" target="_blank">Streisand</a>
+- <a href="https://github.com/kontemplado/openvpn-install-1" target="_blank">OpenVPN Install</a>
 
 ## License
 
